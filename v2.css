@@ -1,0 +1,182 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+US+Trad+Guides&display=swap');
+body {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(4, 70, 109);
+}
+
+.header-title {
+  background-color: #f1b2b2;
+  text-align: center;
+  padding: 10px;
+}
+.header-title h1, p{
+  color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap');
+.header-title h1{
+  font-family: "Anton", serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.header-title p{
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+
+.header {
+  background-color:#45496a;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #ccc;
+}
+
+#Home:target, 
+#RekomendasiWisata:target, 
+#Komentar:target {
+    border: 2px solid #007bff;
+    background-color: #7d8bae;
+}
+
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: auto;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+.content {
+  padding: 0px 40px 0px 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e8ccc7;
+  padding: 20px;
+}
+
+.main-content {
+  background-color: #e5857b;
+  padding: 20px;
+  flex: 3;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.sidebar {
+  background-color: #e5857b;
+  padding: 20px;
+  flex: 1;
+  border-radius: 10px;
+  align-self: flex-start;
+}
+
+.main-content .post{
+  margin-bottom: 25px;
+}
+
+.post-content {
+  display: block;
+  margin-top: 0;
+}
+
+.comment-content {
+  display: block;
+  margin-top: 0;
+}
+
+.comment-content h2{
+  font-size: medium;
+}
+.post-content h2 , p{
+  margin-left: 10px;
+  max-width: 100%;
+  height: auto;
+}
+/* .post-content p{
+  font-weight: bold;
+} */
+
+.post .post-content #myBtn, #myBtn2, #myBtn3{
+  margin-left: 20px;
+}
+
+.comment h2, p {
+ margin-left: 10px;  
+ max-width: 100%;
+height: auto;
+}
+
+.truncate {
+  display: block;
+  overflow: hidden;
+  max-height: 4.5em;
+  line-height: 1.5em;
+}
+
+.post,
+.comment {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  /* flex-wrap: wrap; */
+}
+
+.post img,
+.comment img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.comment img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 25px;
+}
+
+.footer {
+  background-color: #0d0e0e;
+  text-align: center;
+  padding: 20px;
+}
+.footer p {
+  color: #fff;
+}
